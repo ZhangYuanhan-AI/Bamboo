@@ -15,6 +15,7 @@ Due to its scalable nature on both label system and annotation pipeline, Bamboo 
 
 ## Updates
 [03/2022] Bamboo-CLS ResNet-50 and Bamboo-CLS ViT B/16 have been **released**.
+
 [03/2022] arxiv paper have been **released**.
 
 ## Dataset Explore
