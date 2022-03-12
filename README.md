@@ -9,4 +9,4 @@ Bamboo aims to populate these comprehensive categories with 24 image classificat
 Compared to ImageNet22K and Objects365, models pre-trained on Bamboo achieve superior performance among various downstream tasks (6.2% gains on classification and 2.1% gains on detection). In addition, we provide valuable observations regarding large-scale pre-training from over 1,000 experiments.
 Due to its scalable nature on both label system and annotation pipeline, Bamboo will continue to grow and benefit from the collective efforts of the community, which we hope would pave the way for more general vision models. 
 
-![fig1](Figures/Fig1.pdf)
+![fig1](Figures/Fig1.png)
