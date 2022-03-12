@@ -1,5 +1,7 @@
 ## Bamboo: Building Mega-Scale Vision Dataset Continually with Human-Machine Synergy
 
+[[paper](https://arxiv.org/abs/2007.12342)] 
+
 > Abstract: Large-scale datasets play a vital role in computer vision. Existing datasets are either collected according to heuristic label systems or annotated blindly without differentiation to samples, making them inefficient and unscalable. How to systematically collect, annotate and build a mega-scale dataset remains an open question. In this work, we advocate building a high-quality vision dataset actively and continually on a comprehensive label system.
 Specifically, we contribute \textbf{\Datasetname~Dataset}, a mega-scale and information-dense dataset for both classification and detection. 
 It is built upon this human-machine synergy with two appealing properties:
@@ -10,3 +12,11 @@ Compared to ImageNet22K and Objects365, models pre-trained on Bamboo achieve sup
 Due to its scalable nature on both label system and annotation pipeline, Bamboo will continue to grow and benefit from the collective efforts of the community, which we hope would pave the way for more general vision models. 
 
 ![fig1](Figures/Fig1.png)
+
+## Updates
+[03/2022] Bamboo-CLS ResNet-50 and Bamboo-CLS ViT B/16 have been **released**.
+[03/2022] arxiv paper have been **released**.
+
+## Dataset Explore
+Bamboo Exploration: [website link](https://opengvlab.shlab.tech/bamboo/home)
+
