@@ -21,7 +21,7 @@ Due to its scalable nature on both label system and annotation pipeline, Bamboo 
 [03/2022] arxiv paper have been **released**.
 
 ## Dataset Explore
-Bamboo Exploration: [website link](https://opengvlab.shlab.tech/bamboo/home)
+[website link](https://opengvlab.shlab.tech/bamboo/home)
 
 ## Model Zoo
 Bamboo-CLS ResNet-50: https://opengvlab.shlab.tech/models Bamboo_R50_V0.1
