@@ -21,3 +21,8 @@ Due to its scalable nature on both label system and annotation pipeline, Bamboo 
 ## Dataset Explore
 Bamboo Exploration: [website link](https://opengvlab.shlab.tech/bamboo/home)
 
+## Model Zoo
+ResNet-50: https://opengvlab.shlab.tech/models Bamboo_R50_V0.1
+
+
+
