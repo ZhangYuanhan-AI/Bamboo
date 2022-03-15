@@ -24,7 +24,18 @@ Due to its scalable nature on both label system and annotation pipeline, Bamboo 
 [03/2022] arxiv paper have been **released**.
 
 ## Dataset Explore and Downloads
-[website link](https://opengvlab.shlab.tech/bamboo/home)
+
+### Explore
+[website link](https://opengvlab.shlab.org.cn/bamboo/home)
+
+### Downloads
+1. Sign up an account at [HERE](https://opengvlab.shlab.org.cn/register?redirect=/home), get the *USERNAME* for *opengvlab*.
+2. Send your request to opengvlab@pjlab.org.cn. The request should include your name, username and orgnization as follows. We will notify you by email as soon as possible.
+```
+USERNANE: USERNANE(from step1)
+NAME: XXX
+ORGANIZATION: XXX (Bamboo is only for academic research and non-commercial use)
+```
 
 ## Model Zoo
 
@@ -65,5 +76,5 @@ sh *Bamboo-Benchmark/multi_run_100p.sh*
 
 ## Acknowledgement
 
-Thanks, Siyu Chen(https://github.com/Siyu-C), for implementing the Bamboo-Benchmark.
+Thanks, Chen Siyu(https://github.com/Siyu-C), for implementing the Bamboo-Benchmark.
 
