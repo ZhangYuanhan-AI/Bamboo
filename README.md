@@ -21,7 +21,7 @@ Due to its scalable nature on both label system and annotation pipeline, Bamboo 
 ## Updates
 [03/2022] Bamboo-CLS ResNet-50 and Bamboo-CLS ViT B/16 have been **released**.
 
-[03/2022] [arxiv](https://arxiv.org/abs/2007.12342) paper has been **released**.
+[03/2022] [arXiv](https://arxiv.org/abs/2007.12342) paper has been **released**.
 
 ## Dataset
 
@@ -45,7 +45,7 @@ ORGANIZATION: XXX (Bamboo is only for academic research and non-commercial use)
 | ResNet-50 | [link](https://drive.google.com/drive/folders/1OlKVwzF5N3jwBkOmZ2QBloIeK1GrjakE?usp=sharing) | 93.58   | 81.65    | 85.58 | 92.95 | 99.44  | 71.62 | 92.29       | 78.19 | 93.63   | 84.4 | 87.33 |
 | ViT B/16  | [link](https://drive.google.com/drive/folders/1OlKVwzF5N3jwBkOmZ2QBloIeK1GrjakE?usp=sharing) |   98.48 |    90.99 | 93.28 | 95.26 |  99.71 | 79.45 |       93.86 | 81.91 |   94.77 | 88.8 | 91.65 |
 
-### Bamboo-DET (TBD)
+### Bamboo-DET (TBA)
 
 ## Linear Probe
 ### Step 1: 
