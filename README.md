@@ -2,7 +2,7 @@
 
 ![fig1](Figures/Fig1.png)
 
-[[paper](https://arxiv.org/abs/2007.12342)] 
+[[Paper](https://arxiv.org/abs/2007.12342)][[Project](https://opengvlab.shlab.org.cn/bamboo/home)]  
 
 [Zhang Yuanhan](https://github.com/Davidzhangyuanhan/Bamboo), [Sun Qinghong](https://github.com/Davidzhangyuanhan/Bamboo), [Zhou Yichun](https://github.com/Davidzhangyuanhan/Bamboo), [He Zexin](https://scholar.google.com/citations?user=FVPnSPcAAAAJ&hl=zh-CN&oi=ao), [Shao Jing](https://amandajshao.github.io/), [Liu Ziwei](https://liuziwei7.github.io/), *et.al* 
 
@@ -26,7 +26,7 @@ Due to its scalable nature on both label system and annotation pipeline, Bamboo 
 ## Dataset
 
 ### Explore
-[website link](https://opengvlab.shlab.org.cn/bamboo/home)
+[Website Link](https://opengvlab.shlab.org.cn/bamboo/home)
 
 ### Downloads
 1. Sign up an account at [HERE](https://opengvlab.shlab.org.cn/register?redirect=/home), get the *USERNAME* for *opengvlab*.
@@ -76,5 +76,5 @@ sh *Bamboo-Benchmark/multi_run_100p.sh*
 
 ## Acknowledgement
 
-Thanks, Chen Siyu(https://github.com/Siyu-C), for implementing the Bamboo-Benchmark.
+Thanks Chen Siyu (https://github.com/Siyu-C) for implementing the Bamboo-Benchmark.
 
