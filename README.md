@@ -23,7 +23,7 @@ Due to its scalable nature on both label system and annotation pipeline, Bamboo 
 
 [03/2022] arxiv paper have been **released**.
 
-## Dataset Explore and Downloads
+## Dataset
 
 ### Explore
 [website link](https://opengvlab.shlab.org.cn/bamboo/home)
