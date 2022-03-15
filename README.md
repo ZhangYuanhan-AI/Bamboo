@@ -27,7 +27,43 @@ Due to its scalable nature on both label system and annotation pipeline, Bamboo 
 [website link](https://opengvlab.shlab.tech/bamboo/home)
 
 ## Model Zoo
-https://drive.google.com/drive/folders/1OlKVwzF5N3jwBkOmZ2QBloIeK1GrjakE?usp=sharing
 
+### Bamboo-CLS
+| Model     | Link                                                                                         | cifar10 | cifar100 | food  | pet   | flower | sun   | stanfordcar | dtd   | caltech | fgvc-aircraft | AVG   |
+|-----------|----------------------------------------------------------------------------------------------|---------|----------|-------|-------|--------|-------|-------------|-------|---------|---------------|-------|
+| ResNet-50 | [link](https://drive.google.com/drive/folders/1OlKVwzF5N3jwBkOmZ2QBloIeK1GrjakE?usp=sharing) | 93.58   | 81.65    | 85.58 | 92.95 | 99.44  | 71.62 | 92.29       | 78.19 | 93.63   | 84.4 | 87.33 |
+| ViT B/16  | [link](https://drive.google.com/drive/folders/1OlKVwzF5N3jwBkOmZ2QBloIeK1GrjakE?usp=sharing) |   98.48 |    90.99 | 93.28 | 95.26 |  99.71 | 79.45 |       93.86 | 81.91 |   94.77 | 88.8 | 91.65 |
 
+### Bamboo-DET (TBD)
+
+## Linear Probe
+### Step 1: 
+Downloading and organizing each downstream dataset as follows
+
+```
+mmclassification (take flowers for example)
+├── data
+│   ├── flowers
+│   │   ├── train/
+│   │   ├── test/
+│   │   ├── train_meta.list
+│   │   ├── test_meta.list
+```
+### Step 2: 
+Changing root and meta in *Bamboo-Benchmark/configs/100p/config_\*.yaml*
+
+### Step 3:
+Writing the path of the downloaded/your model config in 
+
+*Bamboo-Benchmark/configs/models_cfg/\*.yaml*
+
+### Step 4:
+Writing the name of the downloaded/your model in *Bamboo-Benchmark/multi_run_100p.sh*
+
+### Step 5:
+sh *Bamboo-Benchmark/multi_run_100p.sh*
+
+## Acknowledgement
+
+Thanks, Siyu Chen(https://github.com/Siyu-C), for implementing the Bamboo-Benchmark.
 
