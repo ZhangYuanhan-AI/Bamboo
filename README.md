@@ -27,9 +27,7 @@ Due to its scalable nature on both label system and annotation pipeline, Bamboo 
 [website link](https://opengvlab.shlab.tech/bamboo/home)
 
 ## Model Zoo
-Bamboo-CLS ResNet-50: https://opengvlab.shlab.tech/models (Bamboo_R50_V0.1)
-
-Bamboo-CLS ViT B/16: 
+https://drive.google.com/drive/folders/1OlKVwzF5N3jwBkOmZ2QBloIeK1GrjakE?usp=sharing
 
 
 
