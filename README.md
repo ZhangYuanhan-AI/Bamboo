@@ -2,9 +2,9 @@
 
 ![fig1](Figures/Fig1.png)
 
-[[Paper](https://arxiv.org/abs/2007.12342)][[Project](https://opengvlab.shlab.org.cn/bamboo/home)]  
+[[Paper](https://arxiv.org/abs/2203.07845)][[Project](https://opengvlab.shlab.org.cn/bamboo/home)]  
 
-[Zhang Yuanhan](https://github.com/Davidzhangyuanhan/Bamboo), [Sun Qinghong](https://github.com/Davidzhangyuanhan/Bamboo), [Zhou Yichun](https://github.com/Davidzhangyuanhan/Bamboo), [He Zexin](https://scholar.google.com/citations?user=FVPnSPcAAAAJ&hl=zh-CN&oi=ao), [Shao Jing](https://amandajshao.github.io/), [Liu Ziwei](https://liuziwei7.github.io/), *et.al* 
+[Zhang Yuanhan](https://github.com/Davidzhangyuanhan/Bamboo), [Sun Qinghong](https://github.com/Davidzhangyuanhan/Bamboo), [Zhou Yichun](https://github.com/Davidzhangyuanhan/Bamboo), [He Zexin](https://scholar.google.com/citations?user=FVPnSPcAAAAJ&hl=zh-CN&oi=ao), [Yin Zhenfei](https://scholar.google.com.hk/citations?user=ngPR1dIAAAAJ&hl=zh-CN), [Wang Kun](https://twitter.com/wk910930), [Qiao Yu](http://mmlab.siat.ac.cn/yuqiao), [Shao Jing](https://amandajshao.github.io/), [Liu Ziwei](https://liuziwei7.github.io/)
 
 > Abstract: Large-scale datasets play a vital role in computer vision. Existing datasets are either collected according to heuristic label systems or annotated blindly without differentiation to samples, making them inefficient and unscalable. How to systematically collect, annotate and build a mega-scale dataset remains an open question. In this work, we advocate building a high-quality vision dataset actively and continually on a comprehensive label system.
 Specifically, we contribute **Bamboo** Dataset, a mega-scale and information-dense dataset for both classification and detection. 
@@ -21,7 +21,7 @@ Due to its scalable nature on both label system and annotation pipeline, Bamboo 
 ## Updates
 [03/2022] Bamboo-CLS ResNet-50 and Bamboo-CLS ViT B/16 have been **released**.
 
-[03/2022] [arXiv](https://arxiv.org/abs/2007.12342) paper has been **released**.
+[03/2022] [arXiv](https://arxiv.org/abs/2203.07845) paper has been **released**.
 
 ## Dataset
 
@@ -40,10 +40,12 @@ ORGANIZATION: XXX (Bamboo is only for academic research and non-commercial use)
 ## Model Zoo
 
 ### Bamboo-CLS
-| Model     | Link                                                                                         | cifar10 | cifar100 | food  | pet   | flower | sun   | stanfordcar | dtd   | caltech | fgvc-aircraft | AVG   |
-|-----------|----------------------------------------------------------------------------------------------|---------|----------|-------|-------|--------|-------|-------------|-------|---------|---------------|-------|
-| ResNet-50 | [link](https://drive.google.com/drive/folders/1OlKVwzF5N3jwBkOmZ2QBloIeK1GrjakE?usp=sharing) | 93.58   | 81.65    | 85.58 | 92.95 | 99.44  | 71.62 | 92.29       | 78.19 | 93.63   | 84.4 | 87.33 |
-| ViT B/16  | [link](https://drive.google.com/drive/folders/1OlKVwzF5N3jwBkOmZ2QBloIeK1GrjakE?usp=sharing) |   98.48 |    90.99 | 93.28 | 95.26 |  99.71 | 79.45 |       93.86 | 81.91 |   94.77 | 88.8 | 91.65 |
+| Model     | Link                                                                                         | Data       | cifar10 | cifar100 | food  | pet   | flower | sun   | stanfordcar | dtd   | caltech | fgvc-aircraft | AVG       |
+|-----------|----------------------------------------------------------------------------------------------|------------|---------|----------|-------|-------|--------|-------|-------------|-------|---------|---------------|-----------|
+| ResNet-50 | Official                                                                                     | CLIP       |    88.7 |     70.3 |  86.4 |  88.2 |   96.1 |  73.3 |        78.3 |  76.4 |    89.6 |          49.1 | 79.64     |
+| ViT B/16  | Official                                                                                     | CLIP       |    96.2 |     83.1 |  92.8 |  93.1 |   98.1 |  78.4 |        86.7 |  79.2 |    94.7 |          59.5 | 86.18     |
+| ResNet-50 | [link](https://drive.google.com/drive/folders/1OlKVwzF5N3jwBkOmZ2QBloIeK1GrjakE?usp=sharing) | Bamboo-CLS | 93.58   | 81.65    | 85.58 | 92.95 | 99.44  | 71.62 | 92.29       | 78.19 | 93.63   | 84.4          | **87.33** |
+| ViT B/16  | [link](https://drive.google.com/drive/folders/1OlKVwzF5N3jwBkOmZ2QBloIeK1GrjakE?usp=sharing) | Bamboo-CLS |   98.48 |    90.99 | 93.28 | 95.26 |  99.71 | 79.45 |       93.86 | 81.91 |   94.77 |          88.8 | **91.65** |
 
 ### Bamboo-DET (TBA)
 
@@ -77,4 +79,19 @@ sh *Bamboo-Benchmark/multi_run_100p.sh*
 ## Acknowledgement
 
 Thanks Chen Siyu (https://github.com/Siyu-C) for implementing the Bamboo-Benchmark.
+
+## Citation
+If you use this code in your research, please kindly cite the following papers
+
+```
+@misc{zhang2022bamboo,
+      title={Bamboo: Building Mega-Scale Vision Dataset Continually with Human-Machine Synergy}, 
+      author={Yuanhan Zhang and Qinghong Sun and Yichun Zhou and Zexin He and Zhenfei Yin and Kun Wang and Lu Sheng and Yu Qiao and Jing Shao and Ziwei Liu},
+      year={2022},
+      eprint={2203.07845},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
 
