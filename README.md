@@ -81,7 +81,7 @@ sh *Bamboo-Benchmark/multi_run_100p.sh*
 Thanks Chen Siyu (https://github.com/Siyu-C) for implementing the Bamboo-Benchmark.
 
 ## Citation
-If you use this code in your research, please kindly cite the following papers
+If you use this code in your research, please kindly cite the following papers.
 
 ```
 @misc{zhang2022bamboo,
