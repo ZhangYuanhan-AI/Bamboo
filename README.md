@@ -1,22 +1,31 @@
-## Bamboo: Building Mega-Scale Vision Dataset Continually with Human-Machine Synergy
+![fig1](Figures/teaser.png)
 
-![fig1](Figures/Fig1.png)
-
-[[Paper](https://arxiv.org/abs/2203.07845)][[Project](https://opengvlab.shlab.org.cn/bamboo/home)]  
+<div align="center">
 
 [Zhang Yuanhan](https://github.com/Davidzhangyuanhan/Bamboo), [Sun Qinghong](https://github.com/Davidzhangyuanhan/Bamboo), [Zhou Yichun](https://github.com/Davidzhangyuanhan/Bamboo), [He Zexin](https://scholar.google.com/citations?user=FVPnSPcAAAAJ&hl=zh-CN&oi=ao), [Yin Zhenfei](https://scholar.google.com.hk/citations?user=ngPR1dIAAAAJ&hl=zh-CN), [Wang Kun](https://twitter.com/wk910930), [Qiao Yu](http://mmlab.siat.ac.cn/yuqiao), [Shao Jing](https://amandajshao.github.io/), [Liu Ziwei](https://liuziwei7.github.io/)
 
-> Abstract: Large-scale datasets play a vital role in computer vision. Existing datasets are either collected according to heuristic label systems or annotated blindly without differentiation to samples, making them inefficient and unscalable. How to systematically collect, annotate and build a mega-scale dataset remains an open question. In this work, we advocate building a high-quality vision dataset actively and continually on a comprehensive label system.
-Specifically, we contribute **Bamboo** Dataset, a mega-scale and information-dense dataset for both classification and detection. 
-It is built upon this human-machine synergy with two appealing properties:
+<h3>TL;DR</h3>
 
->  **1) Label System:** we integrate categories from 24 public datasets and collect 170,586 new categories from knowledge bases, forming a hierarchical label system with 304,048 categories. The label system is easily extendable under our designed hierarchy, and its concepts are further distinguished as ''visual'' or ''non-visual''.
+Bamboo is a mega-scale and information-dense dataset for both classification and detection pre-training. It is built upon 24 public datasets (e.g. ImagenNet, Places365, Object365, OpenImages) and added new annotations through active learning. Bamboo has 69M image classification annotations and 32M object bounding boxes.
 
->  **2) Active Annotation:** based on a real-world data pool of 370M raw images crawled by the label system, only informative samples are selected for manual labeling through our human-machine active annotation framework. We find that rectifying out-of-distribution samples is crucial for active learning to function in realistic scenarios.
-Bamboo aims to populate these comprehensive categories with 69M image classification annotations and 170,586 object bounding box annotations. 
-Compared to ImageNet22K and Objects365, models pre-trained on Bamboo achieve superior performance among various downstream tasks (6.2% gains on classification and 2.1% gains on detection). In addition, we provide valuable observations regarding large-scale pre-training from over 1,000 experiments.
-Due to its scalable nature on both label system and annotation pipeline, Bamboo will continue to grow and benefit from the collective efforts of the community, which we hope would pave the way for more general vision models. 
+---
 
+<div>
+    <a href='https://arxiv.org/abs/2203.07845' target='_blank'>Paper</a>&emsp;
+    <a href='https://opengvlab.shlab.org.cn/bamboo/home' target='_blank'>Project</a>&emsp;
+</div>
+</div>
+
+## Leaderboard
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bamboo-building-mega-scale-vision-dataset/image-classification-on-dtd)](https://paperswithcode.com/sota/image-classification-on-dtd?p=bamboo-building-mega-scale-vision-dataset)\
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bamboo-building-mega-scale-vision-dataset/image-classification-on-food-101-1)](https://paperswithcode.com/sota/image-classification-on-food-101-1?p=bamboo-building-mega-scale-vision-dataset)\
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bamboo-building-mega-scale-vision-dataset/fine-grained-image-classification-on-sun397)](https://paperswithcode.com/sota/fine-grained-image-classification-on-sun397?p=bamboo-building-mega-scale-vision-dataset)\
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bamboo-building-mega-scale-vision-dataset/image-classification-on-flowers-102)](https://paperswithcode.com/sota/image-classification-on-flowers-102?p=bamboo-building-mega-scale-vision-dataset)\
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bamboo-building-mega-scale-vision-dataset/fine-grained-image-classification-on-caltech)](https://paperswithcode.com/sota/fine-grained-image-classification-on-caltech?p=bamboo-building-mega-scale-vision-dataset)\
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bamboo-building-mega-scale-vision-dataset/fine-grained-image-classification-on-oxford-1)](https://paperswithcode.com/sota/fine-grained-image-classification-on-oxford-1?p=bamboo-building-mega-scale-vision-dataset) \
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bamboo-building-mega-scale-vision-dataset/image-classification-on-cifar-100)](https://paperswithcode.com/sota/image-classification-on-cifar-100?p=bamboo-building-mega-scale-vision-dataset)\
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bamboo-building-mega-scale-vision-dataset/fine-grained-image-classification-on-stanford)](https://paperswithcode.com/sota/fine-grained-image-classification-on-stanford?p=bamboo-building-mega-scale-vision-dataset)\
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bamboo-building-mega-scale-vision-dataset/image-classification-on-cifar-10)](https://paperswithcode.com/sota/image-classification-on-cifar-10?p=bamboo-building-mega-scale-vision-dataset)
 
 ## Updates
 [03/2022] Bamboo-CLS ResNet-50 and Bamboo-CLS ViT B/16 have been **released**.
@@ -76,10 +85,6 @@ Writing the name of the downloaded/your model in *Bamboo-Benchmark/multi_run_100
 ### Step 5:
 sh *Bamboo-Benchmark/multi_run_100p.sh*
 
-## Acknowledgement
-
-Thanks Chen Siyu (https://github.com/Siyu-C) for implementing the Bamboo-Benchmark.
-
 ## Citation
 If you use this code in your research, please kindly cite the following papers.
 
@@ -93,5 +98,9 @@ If you use this code in your research, please kindly cite the following papers.
       primaryClass={cs.CV}
 }
 ```
+
+## Acknowledgement
+
+Thanks Chen Siyu (https://github.com/Siyu-C) for implementing the Bamboo-Benchmark.
 
 
