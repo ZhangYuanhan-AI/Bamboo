@@ -52,7 +52,7 @@ Bamboo is a mega-scale and information-dense dataset for classification and dete
     ```
 
 ### Label sytem
-We provide the hierarchy for our label system at [HERE](https://drive.google.com/drive/folders/1Eq76P57xjKiqas-JdEy9zSTbtC-YdtKw?usp=sharing). This JSON file includes the following semantical information of each concept. We hope this information will be beneficial for your research.
+We provide the hierarchy for our label system at [HERE](https://drive.google.com/drive/folders/1Eq76P57xjKiqas-JdEy9zSTbtC-YdtKw?usp=sharing). This JSON file includes the following **attrubutes** of each concept. We hope this information will be beneficial for your research.
 
 We take concept/class ``dog`` as an example.
 - Load JSON file
@@ -67,7 +67,7 @@ We take concept/class ``dog`` as an example.
     'father2child', 'child2father', 'id2name', 'id2desc', 'id2desc_zh', 'id2name_zh'
     ```
 - Check the ``id (n02084071)`` of the ``dog`` on the [search](https://opengvlab.shlab.org.cn/bamboo/search).
-- Get the information you need.
+- Get the **attrubutes** you need.
     - Hypernyms ``bamboo['child2father']['n02084071']``: domestic_animals, canine.
     - Hyponyms ``bamboo['father2child']['n02084071']``: husky, griffon, shiba inu and etc.
     - Description ``bamboo['id2desc']['n02084071']``: a member of the genus Canis (probably descended from the common wolf) that has been domesticated by man since prehistoric times; occurs in many breeds.
