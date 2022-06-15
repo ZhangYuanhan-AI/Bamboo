@@ -7,8 +7,7 @@
 <h3>TL;DR</h3>
 
 
-<img src="Figures/teaser_annimation.gif" alt="Pineapple" style="width:180px;height:100px;float:right;margin-left:15px;margin-bottom:10px;margin-top:10px">Bamboo is a mega-scale and information-dense dataset for classification and detection pre-training. It is built upon integrating 24 public datasets (e.g. ImagenNet, Places365, Object365, OpenImages) and added new annotations through active learning. Bamboo has 69M image classification annotations and 32M object bounding boxes.
-
+<img src="Figures/teaser_annimation.gif" alt="Pineapple" style="width:360px;height:200px;float:right;margin-top:10px">Bamboo is a mega-scale and information-dense dataset for classification and detection pre-training. It is built upon integrating 24 public datasets (e.g. ImagenNet, Places365, Object365, OpenImages) and added new annotations through active learning. Bamboo has 69M image classification annotations and 32M object bounding boxes.
 
 ---
 
