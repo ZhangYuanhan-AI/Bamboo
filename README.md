@@ -35,19 +35,57 @@ Bamboo is a mega-scale and information-dense dataset for classification and dete
 
 [03/2022] [arXiv](https://arxiv.org/abs/2203.07845) paper has been **released**.
 
-## Dataset
+## About Bamboo
 
 ### Explore
 [Website Link](https://opengvlab.shlab.org.cn/bamboo/home)
 
 ### Downloads
-1. Sign up an account at [HERE](https://opengvlab.shlab.org.cn/register?redirect=/home), get the *USERNAME* for *opengvlab*.
-2. Send your request to opengvlab@pjlab.org.cn. The request should include your name, username and orgnization as follows. We will notify you by email as soon as possible.
-```
-USERNANE: USERNANE(from step1)
-NAME: XXX
-ORGANIZATION: XXX (Bamboo is only for academic research and non-commercial use)
-```
+- Sign up an account at [HERE](https://opengvlab.shlab.org.cn/register?redirect=/home), get the *USERNAME* for *opengvlab*.
+- Send your request to opengvlab@pjlab.org.cn. The request should include your name, username and orgnization as follows. We will notify you by email as soon as possible.
+    ```
+    USERNANE: USERNANE(from step1)
+    NAME: XXX
+    ORGANIZATION: XXX (Bamboo is only for academic research and non-commercial use)
+    ```
+
+### Label sytem
+We provide the hierarchy for our label system at [HERE](https://drive.google.com/drive/folders/1Eq76P57xjKiqas-JdEy9zSTbtC-YdtKw?usp=sharing). This JSON file includes the following semantical information of each concept. We hope this information will be beneficial for your research.
+
+We take concept/class ``dog`` as an example.
+- Load JSON file
+    ```
+    #input
+    with open('PATH-TO-JSON-FILE.json') as f:
+    bamboo = json.load(f)
+    print(bamboo.keys())
+    ```
+    ```
+    #output
+    'father2child', 'child2father', 'id2name', 'id2desc', 'id2desc_zh', 'id2name_zh'
+    ```
+- Check the ``id (n02084071)`` of the ``dog`` on the [search](https://opengvlab.shlab.org.cn/bamboo/search).
+- Get the information you need.
+    - Hypernyms ``bamboo['child2father']['n02084071']``: domestic_animals, canine.
+    - Hyponyms ``bamboo['father2child']['n02084071']``: husky, griffon, shiba inu and etc.
+    - description ``bamboo['id2desc']['n02084071']``: a member of the genus Canis (probably descended from the common wolf) that has been domesticated by man since prehistoric times; occurs in many breeds.
+    - Included in which public dataset ``bamboo['id2state']['n02084071']['academic']``: openimage, iWildCam2020, STL10, cifar10, iNat2021, ImageNet21K, coco, OpenImage object365.
+
+<img src="Figures/json_annimation.gif" alt="Pineapple">
+
+
+
+
+
+
+
+
+### Special meta file
+Downloading the whole dataset might be unnecessary for most purposes. We provide meta files based on the following dimension.
+- [ ] Class-wise (e.g. dog, car, boat and etc.)
+- [ ] Superclass-wise (e.g. animal, transportation, structure and etc.)
+
+
 
 ## Model Zoo
 
@@ -61,8 +99,22 @@ ORGANIZATION: XXX (Bamboo is only for academic research and non-commercial use)
 
 ### Bamboo-DET (TBA)
 
-## Linear Probe
-### Step 1: 
+## Getting Started
+
+### Installation
+```
+# Create conda environment
+conda create -n bamboo python=3.7
+conda activate bamboo
+
+# Install Pytorch
+conda install pytorch==1.8.0 torchvision==0.9.0 cudatoolkit=10.2 -c pytorch
+
+# Clone and install
+git clone https://github.com/Davidzhangyuanhan/Bamboo.git
+```
+### Linear Probe
+#### Step 1: 
 Downloading and organizing each downstream dataset as follows
 
 ```
@@ -74,18 +126,18 @@ mmclassification (take flowers for example)
 │   │   ├── train_meta.list
 │   │   ├── test_meta.list
 ```
-### Step 2: 
+#### Step 2: 
 Changing root and meta in *Bamboo-Benchmark/configs/100p/config_\*.yaml*
 
-### Step 3:
+#### Step 3:
 Writing the path of the downloaded/your model config in 
 
 *Bamboo-Benchmark/configs/models_cfg/\*.yaml*
 
-### Step 4:
+#### Step 4:
 Writing the name of the downloaded/your model in *Bamboo-Benchmark/multi_run_100p.sh*
 
-### Step 5:
+#### Step 5:
 sh *Bamboo-Benchmark/multi_run_100p.sh*
 
 ## Citation
