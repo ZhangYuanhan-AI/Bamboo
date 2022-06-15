@@ -66,7 +66,7 @@ We take concept/class ``dog`` as an example.
     #output
     'father2child', 'child2father', 'id2name', 'id2desc', 'id2desc_zh', 'id2name_zh'
     ```
-- Check the ``id (n02084071)`` of the ``dog`` on the [search](https://opengvlab.shlab.org.cn/bamboo/search).
+- Check the ``id (n02084071)`` of the ``dog`` on [HERE](https://opengvlab.shlab.org.cn/bamboo/search).
 - Get the **attrubutes** you need.
     - Hypernyms ``bamboo['child2father']['n02084071']``: domestic_animals, canine.
     - Hyponyms ``bamboo['father2child']['n02084071']``: husky, griffon, shiba inu and etc.
