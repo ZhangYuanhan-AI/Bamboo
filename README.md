@@ -68,7 +68,7 @@ We take concept/class ``dog`` as an example.
 - Get the information you need.
     - Hypernyms ``bamboo['child2father']['n02084071']``: domestic_animals, canine.
     - Hyponyms ``bamboo['father2child']['n02084071']``: husky, griffon, shiba inu and etc.
-    - description ``bamboo['id2desc']['n02084071']``: a member of the genus Canis (probably descended from the common wolf) that has been domesticated by man since prehistoric times; occurs in many breeds.
+    - Description ``bamboo['id2desc']['n02084071']``: a member of the genus Canis (probably descended from the common wolf) that has been domesticated by man since prehistoric times; occurs in many breeds.
     - Included in which public dataset ``bamboo['id2state']['n02084071']['academic']``: openimage, iWildCam2020, STL10, cifar10, iNat2021, ImageNet21K, coco, OpenImage object365.
 
 <img src="Figures/json_annimation.gif" alt="Pineapple">
