@@ -22,7 +22,7 @@
     <sup>5</sup>Shanghai AI Laboratory
 </div>
 
-
+<br>
 
 <img src="Figures/teaser_annimation.gif" alt="Pineapple" style="width:360px;height:200px;float:right;margin-top:10px">
 
