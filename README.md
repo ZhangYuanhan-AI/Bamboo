@@ -139,13 +139,12 @@ git clone https://github.com/Davidzhangyuanhan/Bamboo.git
 Downloading and organizing each downstream dataset as follows
 
 ```
-mmclassification (take flowers for example)
-├── data
-│   ├── flowers
-│   │   ├── train/
-│   │   ├── test/
-│   │   ├── train_meta.list
-│   │   ├── test_meta.list
+data
+├── flowers
+│   ├── train/
+│   ├── test/
+│   ├── train_meta.list
+│   ├── test_meta.list
 ```
 #### Step 2: 
 Changing root and meta in *Bamboo-Benchmark/configs/100p/config_\*.yaml*
