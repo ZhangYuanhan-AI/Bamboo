@@ -8,15 +8,15 @@
     <a href='https://github.com/Davidzhangyuanhan/Bamboo' target='_blank'>Zhou Yichun</a><sup>3</sup>&emsp;
     <a href='https://github.com/Davidzhangyuanhan/Bamboo' target='_blank'>He Zexin</a><sup>3</sup>&emsp;
     <a href='https://scholar.google.com.hk/citations?user=ngPR1dIAAAAJ&hl=zh-CN' target='_blank'>Yin Zhenfei</a><sup>4</sup>&emsp;
-    <a href='https://github.com/Davidzhangyuanhan/Bamboo' target='_blank'>Wang Kun</a><sup>4</sup>&emsp;
+    <a href='https://github.com/Davidzhangyuanhan/Bamboo' target='_blank'>Wang Kun</a><sup>4</sup>&emsp; <br>
     <a href='https://lucassheng.github.io/' target='_blank'>Sheng Lv</a><sup>3</sup>&emsp;
     <a href='http://mmlab.siat.ac.cn/yuqiao' target='_blank'>Qiao Yu</a><sup>5</sup>&emsp;
     <a href='https://amandajshao.github.io/' target='_blank'>Shao Jing</a><sup>4</sup>&emsp;
     <a href='https://liuziwei7.github.io/' target='_blank'>Liu Ziwei</a><sup>1</sup>
 </div>
 <div>
-    <sup>1</sup>S-Lab, Nanyang Technological University 
-    <sup>2</sup>BUPT&emsp;
+    <sup>1</sup>S-Lab, Nanyang Technological University&emsp;
+    <sup>2</sup>Beijing University of Posts and Telecommunication&emsp; <br>
     <sup>3</sup>Beihang University&emsp;
     <sup>4</sup>SenseTime Research&emsp;
     <sup>5</sup>Shanghai AI Laboratory
