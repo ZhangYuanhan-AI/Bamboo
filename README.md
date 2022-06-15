@@ -9,8 +9,9 @@
 
 <h3>TL;DR</h3>
 
+<div>
 Bamboo is a mega-scale and information-dense dataset for classification and detection pre-training. It is built upon integrating 24 public datasets (e.g. ImagenNet, Places365, Object365, OpenImages) and added new annotations through active learning. Bamboo has 69M image classification annotations (<span style="color:#AE2011">4 times larger than ImageNet</span>) and 32M object bounding boxes (<span style="color:#AE2011">2 times larger than Object365</span>).
-
+</div>
 ---
 
 <div>
