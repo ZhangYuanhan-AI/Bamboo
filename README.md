@@ -11,8 +11,8 @@ Bamboo is a mega-scale and information-dense dataset for both classification and
 ---
 
 <div>
-    <a href='https://arxiv.org/abs/2203.07845' target='_blank'>Paper</a>&emsp;
-    <a href='https://opengvlab.shlab.org.cn/bamboo/home' target='_blank'>Project</a>&emsp;
+    <a href='https://arxiv.org/abs/2203.07845' target='_blank'>Paper</a>•
+    <a href='https://opengvlab.shlab.org.cn/bamboo/home' target='_blank'>Project</a>
 </div>
 </div>
 
