@@ -52,10 +52,9 @@ Bamboo is a mega-scale and information-dense dataset for classification and dete
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bamboo-building-mega-scale-vision-dataset/image-classification-on-cifar-10)](https://paperswithcode.com/sota/image-classification-on-cifar-10?p=bamboo-building-mega-scale-vision-dataset)
 
 ## Updates
-[06/2022] Try out the web demo on Huggingface spaces 🤗: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/ZhangYuanhan/Bamboo_ViT-B16_demo).
-
-[03/2022] Bamboo-CLS ResNet-50 and Bamboo-CLS ViT B/16 have been **released**.
-
+[06/2022] Try out the web demo on Huggingface spaces 🤗: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/ZhangYuanhan/Bamboo_ViT-B16_demo). \
+[06/2022] We release our label system that have many useful attributes!. \
+[03/2022] Bamboo-CLS ResNet-50 and Bamboo-CLS ViT B/16 have been **released**. \
 [03/2022] [arXiv](https://arxiv.org/abs/2203.07845) paper has been **released**.
 
 ## About Bamboo
