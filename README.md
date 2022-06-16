@@ -171,7 +171,7 @@ Writing the path of the downloaded/your model config in ``Bamboo-Benchmark/confi
 Writing the name of the downloaded/your model in ``Bamboo-Benchmark/multi_run_100p.sh``
 
 #### Step 5:
-``sh Bamboo-Benchmark/multi_run_100p.sh`
+``sh Bamboo-Benchmark/multi_run_100p.sh``
 
 ## Citation
 If you use this code in your research, please kindly cite the following papers.
