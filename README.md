@@ -109,7 +109,7 @@ Downloading the whole dataset might be unnecessary for most purposes. We provide
 - [ ] Superclass-wise (e.g. animal, transportation, structure and etc.)
 
 
-### How to download files from Google drives in the terminal?:
+### How to download files from Google drives in the terminal?
 - Install ``gdown`` 
     ```
     pip install gdown
