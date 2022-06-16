@@ -107,6 +107,19 @@ Downloading the whole dataset might be unnecessary for most purposes. We provide
 - [ ] Superclass-wise (e.g. animal, transportation, structure and etc.)
 
 
+### How to download files from Google drives in the terminal?:
+- Install ``gdown`` 
+    ```
+    pip install gdown
+    ```
+- get the ``id`` of the files 
+    Link: https://drive.google.com/file/d/1WEKQ_68Y9i9FzakvPYU6Yj5SOvkZCIEm/view?usp=sharing \
+    id: 1WEKQ_68Y9i9FzakvPYU6Yj5SOvkZCIEm
+- Download 
+    ```
+    gdown https://drive.google.com/uc?id=1WEKQ_68Y9i9FzakvPYU6Yj5SOvkZCIEm
+    ```
+
 
 ## Model Zoo
 
