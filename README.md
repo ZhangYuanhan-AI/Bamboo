@@ -162,18 +162,16 @@ data
 │   ├── test_meta.list
 ```
 #### Step 2: 
-Changing root and meta in *Bamboo-Benchmark/configs/100p/config_\*.yaml*
+Changing root and meta in ``Bamboo-Benchmark/configs/100p/config_\*.yaml``
 
 #### Step 3:
-Writing the path of the downloaded/your model config in 
-
-*Bamboo-Benchmark/configs/models_cfg/\*.yaml*
+Writing the path of the downloaded/your model config in ``Bamboo-Benchmark/configs/models_cfg/\*.yaml``
 
 #### Step 4:
-Writing the name of the downloaded/your model in *Bamboo-Benchmark/multi_run_100p.sh*
+Writing the name of the downloaded/your model in ``Bamboo-Benchmark/multi_run_100p.sh``
 
 #### Step 5:
-sh *Bamboo-Benchmark/multi_run_100p.sh*
+``sh Bamboo-Benchmark/multi_run_100p.sh`
 
 ## Citation
 If you use this code in your research, please kindly cite the following papers.
