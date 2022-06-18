@@ -73,7 +73,7 @@ Bamboo is a mega-scale and information-dense dataset for classification and dete
     ```
 
 ### Label sytem
-We provide the hierarchy for our label system at [HERE](https://drive.google.com/drive/folders/1Eq76P57xjKiqas-JdEy9zSTbtC-YdtKw?usp=sharing). This JSON file includes the following **attrubutes** of each concept. We hope this information will be beneficial for your research.
+We provide the hierarchy for our label system at [HERE](https://drive.google.com/file/d/1x53MYBQvRl9Ii3ahYT6chwAfJ48kMFuy/view?usp=sharing). This JSON file includes the following **attrubutes** of each concept. We hope this information will be beneficial for your research.
 
 We take concept/class ``dog`` as an example.
 - Load JSON file
