@@ -52,6 +52,7 @@ Bamboo is a mega-scale and information-dense dataset for classification and dete
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bamboo-building-mega-scale-vision-dataset/image-classification-on-cifar-10)](https://paperswithcode.com/sota/image-classification-on-cifar-10?p=bamboo-building-mega-scale-vision-dataset)
 
 ## Updates
+[06/2022] We split Bamboo-CLS into 30 datasets that represent different realms (e.g. car, mammals, food and etc.) in the natural worlds: [HERE](./superclass/README.md) \
 [06/2022] Try out the web demo on Huggingface spaces 🤗: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/CVPR/Bamboo_ViT-B16_demo). \
 [06/2022] We release Bamboo-CLS with FC layer, it can classify 115,217 categories. \
 [06/2022] We release our label system with many useful attributes!. \
@@ -98,15 +99,10 @@ We take concept/class ``dog`` as an example.
 
 
 
-
-
-
-
-
 ### Special meta file
 Downloading the whole dataset might be unnecessary for most purposes. We provide meta files based on the following dimension.
 - [ ] Class-wise (e.g. dog, car, boat and etc.)
-- [ ] Superclass-wise (e.g. animal, transportation, structure and etc.)
+- [✅] Superclass-wise (e.g. animal, transportation, structure and etc.): [HERE](./superclass/README.md)
 
 
 ### How to download files from Google drives in the terminal?
