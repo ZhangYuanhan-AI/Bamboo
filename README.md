@@ -52,8 +52,10 @@ Bamboo is a mega-scale and information-dense dataset for classification and dete
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bamboo-building-mega-scale-vision-dataset/image-classification-on-cifar-10)](https://paperswithcode.com/sota/image-classification-on-cifar-10?p=bamboo-building-mega-scale-vision-dataset)
 
 ## Updates
-[03/2022] Bamboo-CLS ResNet-50 and Bamboo-CLS ViT B/16 have been **released**.
-
+[06/2022] Try out the web demo on Huggingface spaces 🤗: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/CVPR/Bamboo_ViT-B16_demo). \
+[06/2022] We release Bamboo-CLS with FC layer, it can classify 115,217 categories. \
+[06/2022] We release our label system with many useful attributes!. \
+[03/2022] Bamboo-CLS ResNet-50 and Bamboo-CLS ViT B/16 have been **released**. \
 [03/2022] [arXiv](https://arxiv.org/abs/2203.07845) paper has been **released**.
 
 ## About Bamboo
@@ -71,7 +73,7 @@ Bamboo is a mega-scale and information-dense dataset for classification and dete
     ```
 
 ### Label sytem
-We provide the hierarchy for our label system at [HERE](https://drive.google.com/drive/folders/1Eq76P57xjKiqas-JdEy9zSTbtC-YdtKw?usp=sharing). This JSON file includes the following **attrubutes** of each concept. We hope this information will be beneficial for your research.
+We provide the hierarchy for our label system at [HERE](https://drive.google.com/file/d/1x53MYBQvRl9Ii3ahYT6chwAfJ48kMFuy/view?usp=sharing). This JSON file includes the following **attrubutes** of each concept. We hope this information will be beneficial for your research.
 
 We take concept/class ``dog`` as an example.
 - Load JSON file
@@ -107,6 +109,19 @@ Downloading the whole dataset might be unnecessary for most purposes. We provide
 - [ ] Superclass-wise (e.g. animal, transportation, structure and etc.)
 
 
+### How to download files from Google drives in the terminal?
+- Install ``gdown`` 
+    ```
+    pip install gdown
+    ```
+- get the ``id`` of the files 
+    Link, e.g. https://drive.google.com/file/d/1WEKQ_68Y9i9FzakvPYU6Yj5SOvkZCIEm/view?usp=sharing \
+    id: 1WEKQ_68Y9i9FzakvPYU6Yj5SOvkZCIEm
+- Download 
+    ```
+    gdown https://drive.google.com/uc?id=1WEKQ_68Y9i9FzakvPYU6Yj5SOvkZCIEm
+    ```
+
 
 ## Model Zoo
 
@@ -116,7 +131,8 @@ Downloading the whole dataset might be unnecessary for most purposes. We provide
 | ResNet-50 | Official                                                                                     | CLIP       |    88.7 |     70.3 |  86.4 |  88.2 |   96.1 |  73.3 |        78.3 |  76.4 |    89.6 |          49.1 | 79.64     |
 | ViT B/16  | Official                                                                                     | CLIP       |    96.2 |     83.1 |  92.8 |  93.1 |   98.1 |  78.4 |        86.7 |  79.2 |    94.7 |          59.5 | 86.18     |
 | ResNet-50 | [link](https://drive.google.com/file/d/1DrNT5gTK5ouB9c4VMzYpPuAFt-GWA9z3/view?usp=sharing) | Bamboo-CLS | 93.6   | 81.7    | 85.6 | 93.0 | 99.4  | 71.6 | 92.3       | 78.2 | 93.6   | 84.4          | **87.33** |
-| ViT B/16  | [link](https://drive.google.com/file/d/1WEKQ_68Y9i9FzakvPYU6Yj5SOvkZCIEm/view?usp=sharing) | Bamboo-CLS |   98.5 |    91.0 | 93.3 | 95.3 |  99.7 | 79.5 |       93.9 | 81.9 |   94.8 |          88.8 | **91.65** |
+| ViT B/16  | [link](https://drive.google.com/file/d/1JNyx81QfB5Fkrho6tBCFqoUYI-VLEvX6/view?usp=sharing) [link_with-FC](https://drive.google.com/file/d/1JNyx81QfB5Fkrho6tBCFqoUYI-VLEvX6/view?usp=sharing) | Bamboo-CLS |   98.5 |    91.0 | 93.3 | 95.3 |  99.7 | 79.5 |       93.9 | 81.9 |   94.8 |          88.8 | **91.65** |
+
 
 ### Bamboo-DET (TBA)
 
@@ -147,18 +163,16 @@ data
 │   ├── test_meta.list
 ```
 #### Step 2: 
-Changing root and meta in *Bamboo-Benchmark/configs/100p/config_\*.yaml*
+Changing root and meta in ``Bamboo-Benchmark/configs/100p/config_\*.yaml``
 
 #### Step 3:
-Writing the path of the downloaded/your model config in 
-
-*Bamboo-Benchmark/configs/models_cfg/\*.yaml*
+Writing the path of the downloaded/your model config in ``Bamboo-Benchmark/configs/models_cfg/\*.yaml``
 
 #### Step 4:
-Writing the name of the downloaded/your model in *Bamboo-Benchmark/multi_run_100p.sh*
+Writing the name of the downloaded/your model in ``Bamboo-Benchmark/multi_run_100p.sh``
 
 #### Step 5:
-sh *Bamboo-Benchmark/multi_run_100p.sh*
+``sh Bamboo-Benchmark/multi_run_100p.sh``
 
 ## Citation
 If you use this code in your research, please kindly cite the following papers.
