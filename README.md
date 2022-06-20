@@ -102,7 +102,7 @@ We take concept/class ``dog`` as an example.
 ### Special meta file
 Downloading the whole dataset might be unnecessary for most purposes. We provide meta files based on the following dimension.
 - [ ] Class-wise (e.g. dog, car, boat and etc.)
-- [✅] Superclass-wise (e.g. animal, transportation, structure and etc.): [HERE](./superclass/README.md)
+- [x] Superclass-wise (e.g. animal, transportation, structure and etc.): [HERE](./superclass/README.md)
 
 
 ### How to download files from Google drives in the terminal?
