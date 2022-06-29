@@ -3,16 +3,16 @@
 <div align="center">
 
 <div>
-    <a href='https://davidzhangyuanhan.github.io/' target='_blank'>Zhang Yuanhan</a><sup>1</sup>&emsp;
-    <a href='https://github.com/Davidzhangyuanhan/Bamboo' target='_blank'>Sun Qinghong</a><sup>2</sup>&emsp;
-    <a href='https://github.com/Davidzhangyuanhan/Bamboo' target='_blank'>Zhou Yichun</a><sup>3</sup>&emsp;
-    <a href='https://github.com/Davidzhangyuanhan/Bamboo' target='_blank'>He Zexin</a><sup>3</sup>&emsp;
-    <a href='https://scholar.google.com.hk/citations?user=ngPR1dIAAAAJ&hl=zh-CN' target='_blank'>Yin Zhenfei</a><sup>4</sup>&emsp;
-    <a href='https://github.com/Davidzhangyuanhan/Bamboo' target='_blank'>Wang Kun</a><sup>4</sup>&emsp; <br>
-    <a href='https://lucassheng.github.io/' target='_blank'>Sheng Lv</a><sup>3</sup>&emsp;
-    <a href='http://mmlab.siat.ac.cn/yuqiao' target='_blank'>Qiao Yu</a><sup>5</sup>&emsp;
-    <a href='https://amandajshao.github.io/' target='_blank'>Shao Jing</a><sup>4</sup>&emsp;
-    <a href='https://liuziwei7.github.io/' target='_blank'>Liu Ziwei</a><sup>1</sup>
+    <a href='https://davidzhangyuanhan.github.io/' target='_blank'>Yuanhan Zhang</a><sup>1</sup>&emsp;
+    <a href='https://github.com/Davidzhangyuanhan/Bamboo' target='_blank'>Qinghong Sun</a><sup>2</sup>&emsp;
+    <a href='https://github.com/Davidzhangyuanhan/Bamboo' target='_blank'>Yichun Zhou</a><sup>3</sup>&emsp;
+    <a href='https://github.com/Davidzhangyuanhan/Bamboo' target='_blank'>Zexin He</a><sup>3</sup>&emsp;
+    <a href='https://scholar.google.com.hk/citations?user=ngPR1dIAAAAJ&hl=zh-CN' target='_blank'>Zhenfei Yin</a><sup>4</sup>&emsp;
+    <a href='https://github.com/Davidzhangyuanhan/Bamboo' target='_blank'>Kun Wang</a><sup>4</sup>&emsp; <br>
+    <a href='https://lucassheng.github.io/' target='_blank'> Lv Sheng</a><sup>3</sup>&emsp;
+    <a href='http://mmlab.siat.ac.cn/yuqiao' target='_blank'>Yu Qiao</a><sup>5</sup>&emsp;
+    <a href='https://amandajshao.github.io/' target='_blank'>Jing Shao</a><sup>4</sup>&emsp;
+    <a href='https://liuziwei7.github.io/' target='_blank'>Ziwei Liu</a><sup>1</sup>
 </div>
 <div>
     <sup>1</sup>S-Lab, Nanyang Technological University&emsp;
@@ -186,7 +186,7 @@ If you use this code in your research, please kindly cite the following papers.
 
 ## Acknowledgement
 
-Thanks Chen Siyu (https://github.com/Siyu-C) for implementing the Bamboo-Benchmark.
+Thanks to Siyu Chen (https://github.com/Siyu-C) for implementing the Bamboo-Benchmark.
 
 
 <div align="center">
