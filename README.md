@@ -3,7 +3,7 @@
 <div align="center">
 
 <div>
-    <a href='https://davidzhangyuanhan.github.io/' target='_blank'>Yuanhan Zhang</a><sup>1</sup>&emsp;
+    <a href='https://zhangyuanhan-ai.github.io/' target='_blank'>Yuanhan Zhang</a><sup>1</sup>&emsp;
     <a href='https://github.com/Davidzhangyuanhan/Bamboo' target='_blank'>Qinghong Sun</a><sup>2</sup>&emsp;
     <a href='https://github.com/Davidzhangyuanhan/Bamboo' target='_blank'>Yichun Zhou</a><sup>3</sup>&emsp;
     <a href='https://github.com/Davidzhangyuanhan/Bamboo' target='_blank'>Zexin He</a><sup>3</sup>&emsp;
