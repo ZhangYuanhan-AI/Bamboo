@@ -52,6 +52,8 @@ Bamboo is a mega-scale and information-dense dataset for classification and dete
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bamboo-building-mega-scale-vision-dataset/image-classification-on-cifar-10)](https://paperswithcode.com/sota/image-classification-on-cifar-10?p=bamboo-building-mega-scale-vision-dataset)
 
 ## Updates
+[11/2022] We release [Bamboo-Det](https://entuedu-my.sharepoint.com/:u:/g/personal/yuanhan002_e_ntu_edu_sg/EbkbdpG3MnZKl5oQtcSPI1kBJAqjBQVxdH7F_KpG6UV3Bg?e=5bsd4S). \
+[10/2022] We won the **first place** in [Computer Vision in the Wild Challenge(ImageNet-1K in Pre-training track)](https://computer-vision-in-the-wild.github.io/eccv-2022/). :partying_face:! \
 [06/2022] We split Bamboo-CLS into 30 datasets that represent different realms (e.g. car, mammals, food and etc.) in the natural worlds: [HERE](./superclass/README.md) \
 [06/2022] Try out the web demo on Huggingface spaces 🤗: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/CVPR/Bamboo_ViT-B16_demo). \
 [06/2022] We release Bamboo-CLS with FC layer, it can classify 115,217 categories. \
@@ -130,7 +132,14 @@ Downloading the whole dataset might be unnecessary for most purposes. We provide
 | ViT B/16  | [link](https://drive.google.com/file/d/1JNyx81QfB5Fkrho6tBCFqoUYI-VLEvX6/view?usp=sharing) [link_with-FC](https://drive.google.com/file/d/1JNyx81QfB5Fkrho6tBCFqoUYI-VLEvX6/view?usp=sharing) | Bamboo-CLS |   98.5 |    91.0 | 93.3 | 95.3 |  99.7 | 79.5 |       93.9 | 81.9 |   94.8 |          88.8 | **91.65** |
 
 
-### Bamboo-DET (TBA)
+### Bamboo-DET 
+|Dataset| Model | Link| VOC (AP50) | CITY (MR) | COCO (mmAP) |
+|--------|--------|--------|--------|--------|--------|
+|OpenImages|ResNet-50 + FPN| Official| 82.4 | 16.8| 37.4 |
+|Object365|ResNet-50 + FPN| Official| 86.4 | 14.7| 39.3 |
+|Bamboo-DET|ResNet-50 + FPN| [link](https://entuedu-my.sharepoint.com/:u:/g/personal/yuanhan002_e_ntu_edu_sg/EbkbdpG3MnZKl5oQtcSPI1kBJAqjBQVxdH7F_KpG6UV3Bg?e=5bsd4S)| 87.5 | 12.6| 43.9 |
+
+
 
 ## Getting Started
 
