@@ -99,7 +99,10 @@ We take concept/class ``dog`` as an example.
 
 <img src="Figures/json_annimation.gif" alt="Pineapple">
 
-
+### Meta File
+- [Class Name](https://drive.google.com/file/d/1qROHNRf9tu8SDUmyL8cIq159ZmvTBY6J/view?usp=share_link)
+- [Class id -> id](https://drive.google.com/file/d/1s8lytaOVU7GrvGTSs8028rAlILXENSs3/view?usp=share_link)
+- [id -> Class id](https://drive.google.com/file/d/164DiLaMX2iN9PwfZqmXF9UitOwEegcGW/view?usp=share_link)
 
 ### Special meta file
 Downloading the whole dataset might be unnecessary for most purposes. We provide meta files based on the following dimension.
@@ -137,7 +140,7 @@ Downloading the whole dataset might be unnecessary for most purposes. We provide
 |--------|--------|--------|--------|--------|--------|
 |OpenImages|ResNet-50 + FPN| Official| 82.4 | 16.8| 37.4 |
 |Object365|ResNet-50 + FPN| Official| 86.4 | 14.7| 39.3 |
-|Bamboo-DET|ResNet-50 + FPN| [link](https://entuedu-my.sharepoint.com/:u:/g/personal/yuanhan002_e_ntu_edu_sg/EbkbdpG3MnZKl5oQtcSPI1kBJAqjBQVxdH7F_KpG6UV3Bg?e=5bsd4S)| 87.5 | 12.6| 43.9 |
+|Bamboo-DET([Detectron2](https://github.com/facebookresearch/detectron2))|ResNet-50 + FPN| [link](https://entuedu-my.sharepoint.com/:u:/g/personal/yuanhan002_e_ntu_edu_sg/EbkbdpG3MnZKl5oQtcSPI1kBJAqjBQVxdH7F_KpG6UV3Bg?e=5bsd4S)| 87.5 | 12.6| 43.9 |
 
 
 
